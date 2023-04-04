@@ -6,16 +6,16 @@ ruby '2.5.0'
 
 gem 'fixer'
 gem 'oj'
-gem 'rack-cors'
-gem 'rake'
+gem 'rack-cors', '>= 1.0.5'
+gem 'rake', '>= 12.3.3'
 gem 'rufus-scheduler'
 gem 'sequel_pg'
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.3'
 gem 'unicorn'
 
 group :development do
   gem 'minitest'
   gem 'minitest-around'
-  gem 'rack-test'
+  gem 'rack-test', '>= 2.0.0'
   gem 'rubocop'
 end
