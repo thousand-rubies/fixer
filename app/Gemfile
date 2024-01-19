@@ -10,7 +10,7 @@ gem 'rack-cors'
 gem 'rake'
 gem 'rufus-scheduler'
 gem 'sequel_pg'
-gem 'sinatra'
+gem 'sinatra', '>= 4.0.0'
 gem 'unicorn'
 
 group :development do
