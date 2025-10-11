@@ -10,12 +10,12 @@ gem 'rack-cors'
 gem 'rake'
 gem 'rufus-scheduler'
 gem 'sequel_pg'
-gem 'sinatra'
+gem 'sinatra', '>= 2.0.1'
 gem 'unicorn'
 
 group :development do
   gem 'minitest'
   gem 'minitest-around'
-  gem 'rack-test'
+  gem 'rack-test', '>= 0.8.3'
   gem 'rubocop'
 end
